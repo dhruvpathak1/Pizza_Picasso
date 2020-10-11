@@ -1,5 +1,7 @@
-# website_3_pizza
+# Website for pizza cravings!
+Made a simple static web page. Used HTML and CSS with Flex Box and Media properties for responsiveness.
 
-# HTML and CSS Based Website
+## Not Responsive, only a desktop website
 
-![Page 1](C:\Users\DHRUV\Downloads\1)
+## Preview of webpage with desktop view:-
+![](images/1.png)
