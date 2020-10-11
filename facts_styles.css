@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+nav {
+  margin: 0;
+  padding: 1em;
+  font-size: 20px;
+  background-color: black;
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+  margin: 0 4em;
+  color: aliceblue;
+}
+
+a:visited {
+  color: violet;
+}
+
+a:hover {
+  color: aqua;
+}
+
+a:active {
+  color: pink;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+article {
+  flex-basis: 75%;
+  padding: 2em;
+  text-align: center;
+}
+
+aside {
+  flex-basis: 25%;
+  background-color: tomato;
+  padding-top: 2em;
+  padding-left: 1em;
+  padding-right: 0.5em;
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+ul {
+  font-size: 1.5em;
+}
+
+footer {
+  margin-top: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1em;
+  background-color: black;
+  color: white;
+}

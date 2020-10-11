@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join</title>
+    <link rel="stylesheet" href="index_styles.css">
+</head>
+
+<body>
+    <div class="nav" id="top">
+        <a href="index.html">Home</a>
+        <a href="#">Registration</a>
+        <a href="contactus.html">Contact Us</a>
+        <a href="./facts.html" target="_blank">Fun Facts</a>
+        <a href="visit.html">My Store</a>
+    </div>
+    <div>
+        <h1 class="title">Register for more content from The Pizza Nerd!</h1>
+    </div>
+    <div class="form">
+        <form action="submit">
+            <input type="text" name="name" id="name" placeholder=" Name" required><br>
+            <input type="email" name="email" id="email" placeholder=" Email" required><br>
+            <input type="password" name="password" id="password" placeholder="Password"
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required> <br>
+            <label for="slice">How many 8" slices can you have !! </label>
+            <input type="number" name="slice" id="slice" min="0" max="10"><br>
+            <label for="age">Age : </label>0<input type="range" name="age" id="age" max="10">100 <br>
+            <label for="dob">Birthday :</label>
+            <input type="datetime-local" name="birth" id="dob" autofocus> <br>
+
+            <div class="radio">
+                <label for="thincrust">Choose your favourite crust : </label>
+                <input type="checkbox" id="thincrust" name="crust" checked>Thin Crust
+                <input type="checkbox" id="cheeseburst" name="crust">Cheese Crust
+                <input type="checkbox" id="panpizza" name="crust">Pan Pizza <br><br>
+                <label for="bar">How much my life depends on Pizza :</label>
+
+                <progress id="bar" value="100" max="100">80%</progress> 100% !!
+            </div>
+
+            <div class="radio">
+                <label for="yn">Love Pizza? </label>
+                <input type="radio" name="yn" id="yn" checked>Obviously
+                <input type="radio" name="yn" id="yn1">Not so much
+
+            </div>
+
+
+
+            <textarea name="message" id="message" cols="50" rows="7"> Share your thoughts.</textarea><br>
+            <input type="submit" value="SUBMIT">
+        </form>
+    </div>
+
+    <div class="footer">
+        <div class="links">
+            <ul>
+                <li>Home</li>
+                <li>Registration</li>
+                <li>Contact Us</li>
+                <li>Fun</li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <a href="#top">
+                <h3 class="top">Go Back to Top</h3>
+            </a>
+            <a href="./frames.html" target="_blank">
+                <h3 class="top">Frames</h3>
+            </a>
+            <h3 class="copyright">Copyright 2020 &copy;</h3>
+        </div>
+    </div>
+</body>
+
+</html>

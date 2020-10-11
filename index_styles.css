@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.nav {
+  margin: 0;
+  padding: 1em;
+  font-size: 20px;
+  background-color: black;
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+  margin: 0 4em;
+  color: aliceblue;
+}
+
+a:visited {
+  color: violet;
+}
+
+a:hover {
+  color: aqua;
+}
+
+a:active {
+  color: pink;
+}
+
+.linkimg {
+  margin: 0;
+}
+
+.content {
+  padding: 2em;
+  font-size: 1em;
+}
+
+.header {
+  background-image: url("./images/pizza1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+}
+
+.heading {
+  margin-top: 0;
+  padding-top: 0.7em;
+  padding-left: 0.8em;
+  font-size: 6em;
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+
+span {
+  display: block;
+  color: rgb(0, 247, 255);
+  text-align: left;
+}
+
+.footer {
+  margin-top: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1em;
+  background-color: black;
+  color: white;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+  font-size: 1.5em;
+}
+
+.types {
+  width: 100%;
+}
+
+.table {
+  text-align: center;
+  font-size: 1em;
+  padding: 1em;
+}
+
+table,
+th,
+td {
+  text-align: center;
+  border: 2px dashed black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 1em;
+}
+
+tr:nth-child(even) {
+  background-color: gainsboro;
+}
+
+.title {
+  text-align: center;
+}
+
+.form {
+  text-align: center;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 0.2rem;
+  margin: 1em;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+input[type="password"] {
+  width: 20%;
+  padding: 0.5em;
+}
+
+textarea {
+  resize: none;
+}
+
+.radio {
+  margin: 1em;
+}
+
+input[type="submit"] {
+  background-color: burlywood;
+  font-weight: 700;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(221, 153, 64);
+}
+
+.icons {
+  font-size: 3em;
+  text-align: center;
+  margin: 0;
+}
+
+.social {
+  margin: 10em 0 0 15em;
+  text-align: center;
+  float: left;
+}
+
+.call {
+  float: right;
+  margin: 10em 15em 0 0;
+  text-align: center;
+}
+
+.title {
+  font-size: 2em;
+}
+
+.copyright {
+  margin-top: 0;
+}
+
+.top {
+  margin: 0;
+}
+.bullets {
+  margin-left: 600px;
+  font-size: 20px;
+}
+
+.crust {
+  list-style-type: upper-latin;
+}
+
+.cover {
+  text-align: center;
+}
+
+.visit {
+  color: brown;
+}
+
+.visit:hover {
+  color: blue;
+}
