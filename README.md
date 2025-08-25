@@ -1,9 +1,9 @@
 # Pizza Picasso for your cravings!
 A simple static webpage using HTML and CSS.
 
-##### Not Responsive, only a desktop website
+##### Desktop Site Only.
 
-## Preview of webpage with desktop view:-
+## Website UI Preview ⬇️
 
 #### Page 1
 ![Page 1](images/p1.png)
