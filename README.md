@@ -1,5 +1,5 @@
-# Website for pizza cravings!
-Made a simple static web page. Used HTML and CSS with Flex Box and Media properties for responsiveness.
+# Pizza Picasso for your cravings!
+A simple static webpage using HTML, CSS in addtion to Flexbox and @media properties for responsiveness.
 
 ##### Not Responsive, only a desktop website
 
