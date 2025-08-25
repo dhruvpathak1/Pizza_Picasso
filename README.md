@@ -1,5 +1,5 @@
 # Pizza Picasso for your cravings!
-A simple static webpage using HTML, CSS in addtion to Flexbox and @media properties for responsiveness.
+A simple static webpage using HTML and CSS.
 
 ##### Not Responsive, only a desktop website
 
